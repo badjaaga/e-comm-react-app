@@ -12,7 +12,7 @@
     background-size: cover;
     background-position: center;
     margin-bottom: 5px;
-}
+  }
 
   .custom-button {
     width: 80%;
@@ -22,15 +22,15 @@
     display: none;
   }
 
-    &:hover {
-      .image {
-        opacity: 0.8;
-      }
-      .custom-button {
-        opacity: 0.85;
-        display: flex;
-      }
+  &:hover {
+    .image {
+      opacity: 0.8;
     }
+    .custom-button {
+      opacity: 0.85;
+      display: flex;
+    }
+  }
 
   .collection-footer {
     width: 100%;
@@ -42,10 +42,10 @@
     .name {
       width: 90%;
       margin-bottom: 15px;
-  }
+    }
 
     .price {
       width: 10%;
+    }
   }
-}
 }

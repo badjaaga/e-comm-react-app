@@ -16,21 +16,18 @@ export const CartDropdownContainer = styled.div`
 `;
 
 export const CartDropDownButton = styled(CustomButton)`
-    margin-top: auto;
+  margin-top: auto;
 `;
 
 export const EmptyMessageContainer = styled.span`
-    font-size: 18px;
-    margin: 50px auto;
+  font-size: 18px;
+  margin: 50px auto;
 `;
 
 export const CartItemsContainer = styled.div`
-    height: 240px;
-    display: flex;
-    flex-direction: column;
-    overflow-y: auto;
-    overflow-x: hidden;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  overflow-x: hidden;
 `;
-
-
-
